@@ -167,6 +167,12 @@
             <groupId>org.apache.activemq</groupId>
             <artifactId>artemis-server</artifactId>
         </dependency>
+	    
+        <dependency>
+            <groupId>net.bytebuddy</groupId>
+            <artifactId>byte-buddy-dep</artifactId>
+            <version>RELEASE</version>
+        </dependency> 
     </dependencies>
 
     <build>
